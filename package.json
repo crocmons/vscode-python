@@ -24,7 +24,8 @@
         "quickPickItemTooltip",
         "terminalDataWriteEvent",
         "terminalExecuteCommandEvent",
-        "contribIssueReporter"
+        "contribIssueReporter",
+        "notebookReplDocument"
     ],
     "author": {
         "name": "Microsoft Corporation"
@@ -1130,7 +1131,7 @@
             {
                 "command": "python.execInREPL",
                 "key": "shift+enter",
-                "when": "!accessibilityModeEnabled && config.python.REPL.sendToNativeREPL && activeEditor != 'workbench.editor.interactive'&& editorLangId == python && editorTextFocus && !jupyter.ownsSelection && !notebookEditorFocused"
+                "when": "!accessibilityModeEnabled && config.python.REPL.sendToNativeREPL && activeEditor != 'workbench.editor.interactive' && editorLangId == python && editorTextFocus && !jupyter.ownsSelection && !notebookEditorFocused"
             },
             {
                 "command": "python.execInREPLEnter",
